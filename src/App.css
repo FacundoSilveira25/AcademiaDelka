@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Activa el desplazamiento suave en toda la página */
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px; 
+}

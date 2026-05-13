@@ -1,5 +1,5 @@
 // src/App.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Noticias } from './components/Noticias';
 import { QuienesSomos } from './components/QuienesSomos';
 import { Contacto } from './components/Contacto';

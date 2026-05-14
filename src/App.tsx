@@ -17,7 +17,7 @@ function App() {
         <div className="max-w-6xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-4">
           <img 
-            src="/LogoDELKAsin Fondo.png" 
+            src="/logo.png" 
             alt="Logo de la Academia" 
             className="w-50 h-50 object-contain bg-white rounded-full p-1" 
           />

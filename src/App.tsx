@@ -15,10 +15,16 @@ function App() {
       {/* Header y Barra de Navegación */}
       <header className="bg-red-700 text-white shadow-lg sticky top-0 z-40">
         <div className="max-w-6xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex items-center gap-4">
+          <img 
+            src="/LogoDELKAsin Fondo.png" 
+            alt="Logo de la Academia" 
+            className="w-50 h-50 object-contain bg-white rounded-full p-1" 
+          />
           <h1 className="text-2xl font-black uppercase tracking-wider">
             TAEKWON-DO ITF DEL'KA
           </h1>
-          
+          </div>
           <nav className="flex gap-6">
             <button 
               onClick={() => setPestanaActiva('noticias')}

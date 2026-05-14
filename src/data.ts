@@ -20,22 +20,22 @@ export const noticias = [
 export const instructores = [
   {
     id: "inst-1",
-    nombre: "Carlos Martínez",
-    disciplina: "Taekwon-Do ITF",
-    foto: "https://via.placeholder.com/150",
-    bio: "Instructor Mayor con más de 15 años de experiencia formando competidores.",
+    nombre: "Javier Del Castillo",
+    disciplina: "Taekwon-Do ITF - KickBoxing - Boxeo",
+    foto: "/Javier.png",
+    bio: "Maestro VII Dan de Taekwon-do ITF, con mas de 30 años dando clases y competencia initerrupida. Incursiono en el mundo de las artes marciales con 14 años",
     logros: ["Campeón Nacional 2022", "Entrenador de la Selección"],
     record: "45-5-0",
     contacto: "carlos@academia.com"
   },
   {
     id: "inst-2",
-    nombre: "Ana Gómez",
-    disciplina: "Kickboxing & Boxeo",
-    foto: "https://via.placeholder.com/150",
-    bio: "Especialista en striking y preparación física para deportes de combate.",
-    logros: ["Campeona Sudamericana", "Técnica Profesional"],
-    record: "22-3-1",
+    nombre: "Facundo Silveira",
+    disciplina: "Taekwon-do - Kickboxing - Boxeo",
+    foto: "facundo.JPG",
+    bio: "Con una sólida trayectoria en las artes marciales y los deportes de contacto, Facundo Silveira es un instructor dedicado a potenciar las habilidades físicas y mentales de sus alumnos. Cuenta con una certificación de alto grado en Taekwon-Do ITF y es especialista en la enseñanza de Kickboxing y Boxeo. Su enfoque de enseñanza combina la disciplina tradicional y la precisión técnica del Taekwon-Do con la efectividad y el acondicionamiento dinámico del Boxeo y el Kickboxing. Además de su labor como docente, Facundo es un competidor activo en la escena del Kickboxing en Uruguay. Esta experiencia de primera mano en el ring le permite transmitir conocimientos reales, probados en combate, y entender a la perfección los procesos físicos y psicológicos por los que pasa un atleta, desde la preparación y el corte de peso hasta la estrategia en la pelea. Ya sea que busques aprender a defenderte, mejorar tu estado físico o prepararte para competir, Facundo te guiará con un entrenamiento estructurado, exigente y adaptado a tus metas.",
+    logros: ["Campeona Mundial 2023 lucha por equipo", "Campeon Nacional 2022", "Luchador de KickBoxing Semi-Profesional"],
+    record: "1-3",
     contacto: "ana@academia.com"
   }
 ];

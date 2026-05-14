@@ -43,8 +43,8 @@ export const instructores = [
 export const sedes = [
   {
     id: 1,
-    nombre: "Sede Central",
-    direccion: "Av. Principal 1234, Montevideo",
-    mapaUrl: "https://maps.google.com/?q=-34.9011,-56.1645" // Coordenadas de ejemplo
+    nombre: "DEL'KA Montevideo",
+    direccion: "Gral. Flores 2610, Esquina Rivadabia Montevideo",
+    mapaUrl: "https://www.google.com/maps/place/Gimnasio+Dragon/@-34.8797021,-56.1835722,17z/data=!3m1!4b1!4m6!3m5!1s0x959f806b3319e163:0xf4fab471a60fb94d!8m2!3d-34.8797065!4d-56.1809973!16s%2Fg%2F11dfq5nqg8?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D" // Coordenadas de ejemplo
   }
 ];

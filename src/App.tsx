@@ -14,22 +14,26 @@ function App() {
     <div className="min-h-screen bg-gray-100 font-sans pb-24">
       {/* Header y Barra de Navegación */}
      {/* Header y Barra de Navegación */}
+      {/* Header y Barra de Navegación */}
       <header className="bg-black text-white shadow-lg sticky top-0 z-40">
-        {/* Quitamos flex-col para forzar siempre la fila horizontal */}
-        <div className="max-w-6xl mx-auto p-4 flex flex-row justify-between items-center gap-4 overflow-x-auto">
+        {/* flex-col en celular (apilado), md:flex-row en PC (misma línea) */}
+        <div className="max-w-6xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4">
           
-          <div className="flex items-center gap-4 whitespace-nowrap">
+          {/* Contenedor del Logo y Título */}
+          <div className="flex items-center gap-3 w-full md:w-auto justify-center md:justify-start">
             <img 
               src="/logo.png" 
               alt="Logo de la Academia" 
-              className="w-20 h-20 object-contain bg-white rounded-full p-1" 
+              /* Más pequeño en celular (w-14), tamaño normal en PC (md:w-20) */
+              className="w-14 h-14 md:w-20 md:h-20 object-contain bg-white rounded-full p-1 shrink-0" 
             />
-            <h1 className="text-xl md:text-2xl font-black uppercase tracking-wider">
+            <h1 className="text-lg md:text-2xl font-black uppercase tracking-wider text-center md:text-left leading-tight">
               TAEKWON-DO ITF DEL'KA
             </h1>
           </div>
           
-          <nav className="flex gap-4 md:gap-6">
+          {/* Navegación: Abajo y centrada en celular, a la derecha en PC */}
+          <nav className="flex gap-4 md:gap-6 w-full md:w-auto justify-center md:justify-end overflow-x-auto pt-2 md:pt-0">
             <button 
               onClick={() => setPestanaActiva('noticias')}
               className={`font-semibold pb-1 border-b-2 transition-all whitespace-nowrap ${pestanaActiva === 'noticias' ? 'border-white' : 'border-transparent text-red-200 hover:text-white'}`}
@@ -49,6 +53,7 @@ function App() {
               Ubicaciones
             </button>
           </nav>
+
         </div>
       </header>
 

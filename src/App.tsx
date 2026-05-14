@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 font-sans pb-24">
       {/* Header y Barra de Navegación */}
-      <header className="bg-red-700 text-white shadow-lg sticky top-0 z-40">
+      <header className="bg-black text-white shadow-lg sticky top-0 z-40">
         <div className="max-w-6xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-4">
           <img 

@@ -23,9 +23,9 @@ export const instructores = [
     nombre: "Javier Del Castillo",
     disciplina: "Taekwon-Do ITF - KickBoxing - Boxeo",
     foto: "/Javier.png",
-    bio: "Maestro VII Dan de Taekwon-do ITF, con mas de 30 años dando clases y competencia initerrupida. Incursiono en el mundo de las artes marciales con 14 años",
-    logros: ["Campeón Nacional 2022", "Entrenador de la Selección"],
-    record: "45-5-0",
+    bio: "Master Javier del Castillo – VII Dan Director de la Academia DEL'KA-SULSA, Con una vida dedicada al estudio, perfeccionamiento y enseñanza de las artes marciales, el Master Javier del Castillo es un pilar fundamental del Taekwon-Do en Uruguay. Con más de tres décadas de trayectoria ininterrumpida, lidera la Academia DEL'KA-SULSA, forjando con excelencia técnica y rigor a múltiples generaciones de atletas, cinturones negros y nuevos instructores en todo el país. Lejos de limitarse a la enseñanza formativa, es un artista marcial que lidera con el ejemplo y se mantiene como un competidor activo de primer nivel. Su espíritu indomable lo ha llevado a destacar en el circuito de Full Contact y a participar en eventos de élite como el Taekwon-Do Pro Fighter. Actualmente, consolida su gran nivel competitivo disputando el prestigioso título de la ISKA (International Sport Karate Association), demostrando la vigencia y contundencia de sus habilidades en el ring. Además de su maestría en el Taekwon-Do y el Full Contact, su profundo conocimiento biomecánico y estratégico de los deportes de combate lo ha posicionado como un verdadero referente en el ámbito del boxeo. Su enfoque pedagógico fusiona los principios tradicionales del arte marcial —cortesía, integridad, perseverancia, autocontrol y espíritu indomable— con la intensidad y efectividad del combate deportivo de alto rendimiento, brindando a sus alumnos una formación verdaderamente integral.",
+    logros: ["Campeón Mundial 2023", "Entrenador de la Selección", "Multiple Campeon Nacional"],
+    record: "",
     contacto: "carlos@academia.com"
   },
   {

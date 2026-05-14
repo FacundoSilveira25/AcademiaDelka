@@ -19,7 +19,7 @@ function App() {
           <img 
             src="/logo.png" 
             alt="Logo de la Academia" 
-            className="w-35 h-35 object-contain bg-white rounded-full p-1" 
+            className="w-18 h-18 object-contain bg-white rounded-full p-1" 
           />
           <h1 className="text-2xl font-black uppercase tracking-wider">
             TAEKWON-DO ITF DEL'KA
